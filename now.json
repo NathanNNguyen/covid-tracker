@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "name": "my-app",
+  "name": "covid-tracker",
   "builds": [
     {
-      "src": "my-app/package.json",
+      "src": "/package.json",
       "use": "@now/static-build",
       "config": {
         "distDir": "build"
@@ -13,7 +13,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "my-app/$1"
+      "dest": "covid-tracker/$1"
     }
   ]
 }
