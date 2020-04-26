@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Real time data covid-19
+## Real time data COVID-19
 
 <a onclick="window.open(this.href,'_blank');return false;" href="https://covid-tracker-nn.now.sh/">Demo</a>
 
