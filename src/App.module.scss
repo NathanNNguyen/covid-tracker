@@ -7,11 +7,13 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-image: url('./images/hero.png');
+  background-size: cover;
 }
 
 .image {
   width: 350px;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 @media (max-width: 770px){
