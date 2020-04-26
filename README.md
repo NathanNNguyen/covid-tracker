@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Real time data COVID-19
 
-<a onclick="window.open(this.href,'_blank');return false;" href="https://covid-tracker-nn.now.sh/">Demo</a>
+<a href=”https://covid-tracker-nn.now.sh/” target=”_blank” rel='noopener noreferrer'>Go to site</a>
 
 ## Available Scripts
 
