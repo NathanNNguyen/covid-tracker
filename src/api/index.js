@@ -51,3 +51,20 @@ export const fetchCountries = async () => {
     console.log(err)
   }
 }
+
+const header = {
+  headers: {
+    "x-rapidapi-key": "e296e10e23mshdb8089f4e265c35p104b62jsnda612e40b2bb"
+  }
+}
+
+export const fetchActive = async () => {
+  try {
+    const { data: { data } } = await axios.get('https://covid-19-statistics.p.rapidapi.com/reports/total', header)
+    console.log(data)
+    return data
+  }
+  catch (err) {
+    console.log(err)
+  }
+}
