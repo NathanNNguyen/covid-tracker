@@ -4,11 +4,6 @@
 
 .card {
   margin: 0 2% !important;
-
-  :hover{
-    transform: translateY(-.2rem) !important;
-    transition: .4s ;
-  }
 }
 
 .infected {
@@ -33,6 +28,14 @@
 
 .dead{
   color: rgba( 255, 0, 0, 0.7) !important;
+}
+
+.activate {
+  border-bottom: 10px solid rgba(100, 0, 255, 0.7);
+}
+
+.active {
+  color: rgba( 100, 0, 255, 0.7) !important;
 }
 
 @media (max-width: 770px) {
